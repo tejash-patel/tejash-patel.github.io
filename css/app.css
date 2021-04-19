@@ -1,0 +1,156 @@
+:root {
+    --color1: #101820;
+    --color2: #6C63FF;
+    --color3: #D4DFEC48;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+/* Buttons */
+
+/* Cards */
+
+.card{
+    box-shadow: 5px 10px;
+}
+
+/* NavBar */
+
+.scrolled {
+    color: var(--color1) !important;
+    background: white;
+    transition: background 500ms;
+    border-bottom: var(--color1) solid 2px;
+}
+
+.scrolled a {
+    color: var(--color1) !important;
+}
+
+.scrolled div button .navbar-toggler-icon {
+    color: var(--color1) !important;
+}
+
+#mainNavbar {
+    font-weight: 100;
+    color: white;
+}
+
+#mainNavbar a {
+    color: white;
+}
+
+.bg-dark {
+    background-color: var(--color1) !important;
+}
+
+/* Header */
+
+#header {
+    background: var(--color1);
+    color: white;
+}
+
+/* #header h3{
+    font-size: 2rem;
+} */
+
+#header img {
+    width: 175px;
+}
+
+#header .row {
+    min-height: 650px;
+}
+
+/* Spacing */
+
+.space {
+    height: 150px;
+}
+
+/* Buttons */
+
+.btn {
+    border: none;
+}
+
+.btn:hover{
+    border: none;
+}
+
+/* About-Me*/
+
+#about-me {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+#about-me section{
+    background-color: var(--color3);
+    border-top: 1px solid #e7e7e7;
+}
+
+#about-me #kinaxis img{
+    width: 300px;
+}
+
+#about-me #nrc{
+    background-color: white;
+}
+
+#about-me section .row {
+    height: 300px;
+}
+
+#about-me #carleton img {
+    width: 500px;
+}
+
+#ext-curr {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: var(--color3);
+}
+
+#ext-curr img {
+    width: 350px;
+}
+
+#ext-curr .row {
+    height: 200px;
+}
+
+/* MainContent */
+
+.card {
+    border-color: rgb(72, 29, 116);
+    margin-bottom: 1.5rem !important;
+}
+
+.card-header {
+    font-size: 38px;
+    background-color: white;
+}
+
+/* Footer */
+
+.footer {
+    background: var(--color1);
+    height: 75px;
+    color: white;
+}
+
+.footer .row {
+    height: 75px;
+}
+
+.footer .row .fab {
+    color: white;
+}
+

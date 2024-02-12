@@ -100,8 +100,11 @@ h1 {
   border-top: 1px solid #e7e7e7;
 }
 
-#about-me #kinaxis {
+#about-me #marchnetworks {
   background-color: white;
+}
+
+#about-me #kinaxis {
 }
 
 #about-me #kinaxis img {
@@ -109,10 +112,10 @@ h1 {
 }
 
 #about-me #nrc {
+  background-color: white;
 }
 
 #about-me #ta {
-  background-color: white;
 }
 
 #about-me section .row {
